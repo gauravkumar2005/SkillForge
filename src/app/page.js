@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex justify-center gap-4">
             <Link
               href="/courses"
-              className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold"
+              className="bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold"
             >
               Explore Courses
             </Link>
