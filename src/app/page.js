@@ -4,7 +4,7 @@ export default function Home() {
   return (
       <section className="bg-blue-600 text-white py-50 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">
+          <h1 className="text-5xl text-red-600 font-bold mb-6">
             Learn New Skills with SkillForge
           </h1>
 
