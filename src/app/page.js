@@ -23,7 +23,7 @@ export default function Home() {
 
             <Link
               href="/signup"
-              className="border border-white  py-3 rounded-lg font-semibold"
+              className="border border-white px-6 py-3 rounded-lg font-semibold"
             >
               Get Started
             </Link>
