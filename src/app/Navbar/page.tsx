@@ -8,9 +8,9 @@ export default function Navbar() {
         <h1 className="text-2xl font-bold">MyProject</h1>
 
         <div className="flex gap-5">
-          <Link href="/" className="text-xl hover:bg-gray-600">Home</Link>
-          <Link href="/about" className="text-xl hover:bg-gray-600">About</Link>
-          <Link href="/services">Services</Link>
+          <Link href="/" className="text-xl hover:text-gray-600">Home</Link>
+          <Link href="/about" className="text-xl hover:text-gray-600">About</Link>
+          <Link href="/services" className="text-xl hover:text-gray-600">Services</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/profile">Profile</Link>
           <Link href="/login">Login</Link>
