@@ -25,7 +25,7 @@ export default function ContactPage() {
               </p>
 
               <p>
-                <strong>Phone:</strong> +91 98765 43210
+                <strong>Phone:</strong> +91 90977 10004
               </p>
 
               <p>
