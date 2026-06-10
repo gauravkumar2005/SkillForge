@@ -16,7 +16,7 @@ export default function ContactPage() {
           {/* Contact Info */}
           <div className="bg-white p-8 rounded-xl shadow">
             <h2 className="text-2xl font-semibold mb-6">
-              Get In Touch
+              
             </h2>
 
             <div className="space-y-4">
