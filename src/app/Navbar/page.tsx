@@ -14,7 +14,7 @@ export default function Navbar() {
           <Link href="/contact" className="text-xl hover:text-gray-600">Contact</Link>
           <Link href="/profile" className="text-xl hover:text-gray-600">Profile</Link>
           <Link href="/login" className="text-xl hover:text-gray-600">Login</Link>
-          <Link href="/signup">Sign Up</Link>
+          <Link href="/signup" className="text-xl hover:text-gray-600">Sign Up</Link>
         </div>
 
       </div>
