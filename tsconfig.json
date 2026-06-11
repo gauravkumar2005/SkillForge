@@ -30,7 +30,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/signup/page.jsx", "src/app/profile/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
