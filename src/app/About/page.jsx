@@ -74,6 +74,41 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Core Values */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12">
+            Our Core Values
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-semibold mb-4">Innovation</h3>
+              <p className="text-gray-600">
+                We continuously improve our learning experience using modern
+                technologies and teaching methods.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-semibold mb-4">Accessibility</h3>
+              <p className="text-gray-600">
+                Quality education should be available to everyone regardless of
+                their location or background.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-semibold mb-4">Excellence</h3>
+              <p className="text-gray-600">
+                We focus on delivering high-quality content that helps learners
+                achieve their personal and professional goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     
     </main>
   );
