@@ -16,7 +16,7 @@ export default function LoginPage() {
         {/* Login Form */}
         <form className="space-y-5">
           <div>
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-black">
               Email
             </label>
             <input
@@ -27,7 +27,7 @@ export default function LoginPage() {
           </div>
 
           <div>
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-black">
               Password
             </label>
             <input
