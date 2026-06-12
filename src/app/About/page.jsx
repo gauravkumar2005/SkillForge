@@ -91,7 +91,7 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl text-blackfont-semibold mb-4">Accessibility</h3>
+              <h3 className="text-2xl text-black font-semibold mb-4">Accessibility</h3>
               <p className="text-gray-600">
                 Quality education should be available to everyone regardless of
                 their location or background.
@@ -99,7 +99,7 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-semibold mb-4">Excellence</h3>
+              <h3 className="text-2xl text-black  font-semibold mb-4">Excellence</h3>
               <p className="text-gray-600">
                 We focus on delivering high-quality content that helps learners
                 achieve their personal and professional goals.
