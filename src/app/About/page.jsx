@@ -83,7 +83,7 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-semibold mb-4">Innovation</h3>
+              <h3 className="text-2xl text-black font-semibold mb-4">Innovation</h3>
               <p className="text-gray-600">
                 We continuously improve our learning experience using modern
                 technologies and teaching methods.
@@ -112,7 +112,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="bg-blue-600 text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl text-blackfont-bold mb-4">
+          <h2 className="text-4xl font-bold mb-4">
             Start Your Learning Journey Today
           </h2>
 
