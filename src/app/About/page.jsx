@@ -20,7 +20,7 @@ export default function AboutPage() {
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6">Our Mission</h2>
+            <h2 className="text-4xl text-black font-bold mb-6">Our Mission</h2>
 
             <p className="text-gray-600 leading-8">
               At SkillForge, we believe that education should be accessible,

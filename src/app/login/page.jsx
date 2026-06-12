@@ -38,7 +38,7 @@ export default function LoginPage() {
           </div>
 
           <div className="flex justify-between items-center text-sm">
-            <label className="flex items-center text-blackgap-2">
+            <label className="flex items-center text-black gap-2">
               <input type="checkbox" />
               Remember Me
             </label>
