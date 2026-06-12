@@ -112,7 +112,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="bg-blue-600 text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl text-blackfont-bold mb-4">
             Start Your Learning Journey Today
           </h2>
 
