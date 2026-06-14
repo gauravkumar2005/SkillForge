@@ -65,7 +65,7 @@ export default function MyCoursesPage() {
       </section>
 
       {/* Courses */}
-      <section className="max-w-7xl mx-auto px-6 pb-16">
+      <section className="max-w-7xl mx-auto text-black px-6 pb-16">
         <h2 className="text-3xl font-bold mb-8">
           Continue Learning
         </h2>
