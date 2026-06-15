@@ -37,7 +37,7 @@ export default function ContactPage() {
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-xl shadow">
             <h2 className="text-2xl font-semibold mb-6">
-              
+              Send a Message
             </h2>
 
             <form className="space-y-4">
