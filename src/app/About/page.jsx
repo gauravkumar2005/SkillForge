@@ -53,7 +53,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
               <h3 className="text-4xl font-bold text-blue-600">10K+</h3>
-              <p className="text-gray-600 mt-2">Active Learners</p>
+              <p className="text-gray-600 mt-2"></p>
             </div>
 
             <div>
