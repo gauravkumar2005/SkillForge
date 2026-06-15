@@ -58,7 +58,7 @@ export default function AboutPage() {
 
             <div>
               <h3 className="text-4xl font-bold text-blue-600">200+</h3>
-              <p className="text-gray-600 mt-2"></p>
+              <p className="text-gray-600 mt-2">Premium Courses</p>
             </div>
 
             <div>
