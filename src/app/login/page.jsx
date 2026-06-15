@@ -1,6 +1,6 @@
 export default function LoginPage() {
   return (
-    <main className="min-h-screen bg-gray-100 flex items-center justify-center px-6">
+    <main className="min-h-screen bg-gray-100 text-gray-900 flex items-center justify-center px-6">
       <div className="bg-white w-full max-w-md p-8 rounded-2xl shadow-lg">
         
         {/* Heading */}
