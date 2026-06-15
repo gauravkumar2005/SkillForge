@@ -5,7 +5,7 @@ export default function AboutPage() {
       <section className="bg-blue-600 text-white py-24 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About SkillForge
+            
           </h1>
 
           <p className="text-lg max-w-3xl mx-auto">
