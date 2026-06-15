@@ -34,7 +34,7 @@ export default function SignupPage() {
               id="name"
               type="text"
               placeholder="Enter your full name"
-              className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
+              className="w-full rounded-lg border border-gray-500 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
             />
           </div>
 
@@ -50,7 +50,7 @@ export default function SignupPage() {
               id="email"
               type="email"
               placeholder="Enter your email"
-              className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
+              className="w-full rounded-lg border border-gray-500 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
             />
           </div>
 
@@ -66,7 +66,7 @@ export default function SignupPage() {
               id="password"
               type="password"
               placeholder="Create a password"
-              className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
+              className="w-full rounded-lg border border-gray-500 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
             />
           </div>
 
@@ -82,7 +82,7 @@ export default function SignupPage() {
               id="confirmPassword"
               type="password"
               placeholder="Confirm your password"
-              className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
+              className="w-full rounded-lg border border-gray-500 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-2 focus:ring-blue-200"
             />
           </div>
 
