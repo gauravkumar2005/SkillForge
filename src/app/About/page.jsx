@@ -33,7 +33,7 @@ export default function AboutPage() {
 
           <div className="bg-white p-8 rounded-2xl shadow-lg">
             <h3 className="text-2xl text-black font-semibold mb-4">
-              What We Offer
+              
             </h3>
 
             <ul className="space-y-3 text-gray-600">
