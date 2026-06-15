@@ -45,7 +45,7 @@ export default function MyCoursesPage() {
       </section>
 
       {/* Stats */}
-      <section className="max-w-7xl mx-auto px-6 py-10">
+      <section className="max-w-7xl mx-auto text-black px-6 py-10">
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-2xl shadow-sm">
             <h3 className="text-gray-500">Enrolled Courses</h3>
