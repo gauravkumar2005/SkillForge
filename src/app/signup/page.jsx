@@ -21,7 +21,7 @@ export default function SignupPage() {
         </div>
 
         {/* Signup Form */}
-        <form className="space-y-5">
+        <form className="space-y-5 text-black">
           <div>
             <label
               htmlFor="name"
