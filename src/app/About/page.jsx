@@ -68,7 +68,7 @@ export default function AboutPage() {
 
             <div>
               <h3 className="text-4xl font-bold text-blue-600">95%</h3>
-              <p className="text-gray-600 mt-2">Student Satisfaction</p>
+              <p className="text-gray-600 mt-2"></p>
             </div>
           </div>
         </div>
