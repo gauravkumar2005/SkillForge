@@ -63,7 +63,7 @@ export default function AboutPage() {
 
             <div>
               <h3 className="text-4xl font-bold text-blue-600">50+</h3>
-              <p className="text-gray-600 mt-2">Expert Mentors</p>
+              <p className="text-gray-600 mt-2"></p>
             </div>
 
             <div>
