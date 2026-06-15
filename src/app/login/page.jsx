@@ -16,7 +16,7 @@ export default function LoginPage() {
         {/* Login Form */}
         <form className="space-y-5">
           <div>
-            <label className="block mb-2 font-medium text-black">
+            <label className="block mb-2 font-medium">
               Email
             </label>
             <input
@@ -38,7 +38,7 @@ export default function LoginPage() {
           </div>
 
           <div className="flex justify-between items-center text-sm">
-            <label className="flex items-center text-black gap-2">
+            <label className="flex items-center gap-2">
               <input type="checkbox" />
               Remember Me
             </label>
