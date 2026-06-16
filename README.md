@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 SkillForge
 
-## Getting Started
+An interactive online learning platform built with **Next.js** that helps students and professionals develop industry-ready skills through expert-led courses, hands-on projects, and personalized learning experiences.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
+
+## 🌐 Live Demo
+
+🔗 **Demo:** https://your-demo-link.vercel.app
+
+## ✨ Features
+
+* 🔐 User Authentication (Login & Signup)
+* 📚 Browse and explore courses
+* 📈 Track learning progress
+* 🎯 Personalized learning dashboard
+* 📱 Fully responsive design
+* 📞 Contact and support page
+* 🎨 Modern and intuitive user interface
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+* JavaScript
+
+### Backend (Planned)
+
+* Node.js
+* MongoDB
+
+## 📂 Pages
+
+* Home
+* About
+* Courses
+* My Courses
+* Login
+* Signup
+* Contact
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+```text
+public/screenshots/
+├── home.png
+├── courses.png
+├── login.png
+└── dashboard.png
+```
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/skillforge.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd skillforge
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+app/
+├── about/
+├── contact/
+├── courses/
+├── login/
+├── my-courses/
+├── signup/
+├── layout.js
+├── page.jsx
 
-## Learn More
+components/
+public/
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🔮 Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* 🎥 Course video streaming
+* 👨‍🏫 Instructor dashboard
+* 🏆 Certificate generation
+* 💳 Payment integration
+* 📝 Quizzes and assignments
+* 🤖 AI-powered learning recommendations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+Contributions are welcome.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create a new branch
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git checkout -b feature/your-feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add your feature"
+```
+
+4. Push to your branch
+
+```bash
+git push origin feature/your-feature-name
+```
+
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Your Name**
+
+* GitHub: https://github.com/your-username
+* LinkedIn: https://linkedin.com/in/your-linkedin
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS.
