@@ -62,7 +62,7 @@ public/screenshots/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/gauravkumar2005/SkillForge
+git clone https://github.com/gauravkumar2005/SkillForge.git
 ```
 
 ### 2. Navigate to the project directory
