@@ -14,7 +14,8 @@ export default function Footer() {
             </h2>
 
             <p className="mt-4 text-sm leading-6 text-gray-400 max-w-sm">
-             
+              Learn practical skills, build real-world projects, and grow
+              your career with SkillForge.
             </p>
 
             <div className="flex gap-4 mt-6">
