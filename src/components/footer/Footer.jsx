@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Platform */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">
-              
+              Platform
             </h3>
 
             <ul className="space-y-3 text-sm">
