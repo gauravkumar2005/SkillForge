@@ -58,7 +58,7 @@ export default function MyCoursesPage() {
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-sm">
-            <h3 className="text-gray-500"></h3>
+            <h3 className="text-gray-500">Certificates</h3>
             <p className="text-3xl text-blue-600 font-bold mt-2">1</p>
           </div>
         </div>
