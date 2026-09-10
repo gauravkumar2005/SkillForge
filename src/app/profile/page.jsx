@@ -35,37 +35,75 @@ export default function ProfilePage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
           {/* Profile Card */}
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 text-center">
+<div
+  className="
+    bg-white rounded-2xl shadow-sm border border-gray-200 p-6 text-center
+    transition-all duration-300 ease-in-out
+    hover:-translate-y-1
+    hover:shadow-xl
+    hover:border-blue-200
+  "
+>
+  {/* Avatar */}
+  <div
+    className="
+      w-28 h-28 mx-auto rounded-full
+      bg-blue-600
+      flex items-center justify-center
+      text-white text-4xl font-bold
+      transition-all duration-300
+      hover:scale-105
+    "
+  >
+    {profile.name.charAt(0)}
+  </div>
 
-            {/* Avatar */}
-            <div className="w-28 h-28 mx-auto rounded-full bg-blue-600 flex items-center justify-center text-white text-4xl font-bold">
-              {profile.name.charAt(0)}
-            </div>
+  <h2 className="text-2xl font-bold text-gray-900 mt-5">
+    {profile.name}
+  </h2>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-5">
-              {profile.name}
-            </h2>
+  <p className="text-gray-500 mt-1">
+    {profile.email}
+  </p>
 
-            <p className="text-gray-500 mt-1">
-              {profile.email}
-            </p>
+  <div className="mt-6 grid grid-cols-2 gap-4">
 
-            <div className="mt-6 grid grid-cols-2 gap-4">
-              <div className="bg-gray-50 rounded-xl p-4">
-                <p className="text-2xl font-bold text-blue-600">4</p>
-                <p className="text-sm text-gray-500">
-                  Courses
-                </p>
-              </div>
+    <div
+      className="
+        bg-gray-50 rounded-xl p-4
+        transition-all duration-300
+        hover:bg-blue-50
+        hover:-translate-y-1
+      "
+    >
+      <p className="text-2xl font-bold text-blue-600">
+        4
+      </p>
 
-              <div className="bg-gray-50 rounded-xl p-4">
-                <p className="text-2xl font-bold text-green-600">72%</p>
-                <p className="text-sm text-gray-500">
-                  Progress
-                </p>
-              </div>
-            </div>
-          </div>
+      <p className="text-sm text-gray-500">
+        Courses
+      </p>
+    </div>
+
+    <div
+      className="
+        bg-gray-50 rounded-xl p-4
+        transition-all duration-300
+        hover:bg-green-50
+        hover:-translate-y-1
+      "
+    >
+      <p className="text-2xl font-bold text-green-600">
+        72%
+      </p>
+
+      <p className="text-sm text-gray-500">
+        Progress
+      </p>
+    </div>
+
+  </div>
+</div>
 
           {/* Profile Details */}
           <div className="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8">
