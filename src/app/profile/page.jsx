@@ -106,7 +106,7 @@ export default function ProfilePage() {
 </div>
 
           {/* Profile Details */}
-          <div className="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8">
+          <div className="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8  transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl hover:border-blue-200">
 
             <div className="flex items-center justify-between mb-8">
               <div>
