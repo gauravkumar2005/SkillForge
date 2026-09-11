@@ -182,7 +182,7 @@ export default function ProfilePage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
-                <div className="border border-gray-200 rounded-xl p-4">
+                <div className="border border-gray-200 rounded-xl p-4  transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:border-blue-200  hover:bg-blue-50/30">
                   <p className="text-sm text-gray-500">
                     Completed Courses
                   </p>
@@ -191,7 +191,7 @@ export default function ProfilePage() {
                   </p>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-4">
+                <div className="border border-gray-200 rounded-xl p-4  transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:border-blue-200  hover:bg-blue-50/30">
                   <p className="text-sm text-gray-500">
                     Certificates
                   </p>
