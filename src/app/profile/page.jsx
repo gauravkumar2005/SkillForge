@@ -28,7 +28,7 @@ export default function ProfilePage() {
             My Profile
           </h1>
           <p className="text-gray-600 mt-2">
-            
+            Manage your personal information and learning profile.
           </p>
         </div>
 
