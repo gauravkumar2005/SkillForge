@@ -111,7 +111,7 @@ export default function ProfilePage() {
             <div className="flex items-center justify-between mb-8">
               <div>
                 <h2 className="text-xl font-bold text-gray-900">
-                  Personal Information
+                  
                 </h2>
                 <p className="text-sm text-gray-500 mt-1">
                   Update your profile details.
