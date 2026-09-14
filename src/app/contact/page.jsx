@@ -42,7 +42,15 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-xl shadow">
+          <div 
+          className="
+               bg-white p-8 rounded-xl shadow
+               border border-transparent
+               transition-all duration-300
+               hover:-translate-y-1
+               hover:shadow-xl
+               hover:border-blue-200
+            ">
             <h2 className="text-2xl font-semibold mb-6">
               Send a Message
             </h2>
