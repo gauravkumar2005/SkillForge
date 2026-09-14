@@ -14,7 +14,14 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-2 gap-8">
 
           {/* Contact Info */}
-          <div className="bg-white p-8 rounded-xl shadow">
+          <div 
+            className="
+               bg-white p-8 rounded-xl shadow
+               border border-transparent
+               transition-all duration-300
+               hover:-translate-y-1
+               hover:shadow-xl
+               hover:border-blue-200">
             <h2 className="text-2xl font-semibold mb-6">
               Get In Touch
             </h2>
