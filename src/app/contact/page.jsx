@@ -59,13 +59,27 @@ export default function ContactPage() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full border p-3 rounded-lg"
+                className="
+                   w-full border border-gray-300 p-3 rounded-lg
+                   outline-none
+                   transition-all duration-200
+                   hover:border-blue-300
+                   focus:border-blue-500
+                   focus:ring-2 focus:ring-blue-100
+                 "
               />
 
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full border p-3 rounded-lg"
+                className="
+                   w-full border border-gray-300 p-3 rounded-lg
+                   outline-none
+                   transition-all duration-200
+                   hover:border-blue-300
+                   focus:border-blue-500
+                   focus:ring-2 focus:ring-blue-100
+                 "
               />
 
               <input
