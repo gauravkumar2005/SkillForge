@@ -119,7 +119,7 @@ export default function ContactPage() {
                    hover:shadow-md
                   "
               >
-                Send Message
+               
               </button>
             </form>
           </div>
