@@ -31,7 +31,15 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-2xl shadow-lg">
+          <div 
+          className="
+            bg-white p-8 rounded-2xl shadow-lg
+            border border-transparent
+            transition-all duration-300 ease-in-out
+            hover:-translate-y-1
+            hover:shadow-xl
+            hover:border-blue-200
+          ">
             <h3 className="text-2xl text-black font-semibold mb-4">
               What We Offer
             </h3>
