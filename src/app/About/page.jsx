@@ -26,7 +26,8 @@ export default function AboutPage() {
               At SkillForge, we believe that education should be accessible,
               practical, and career-focused. Our mission is to bridge the gap
               between traditional learning and real-world industry requirements
-             
+              by providing engaging courses and project-based learning
+              experiences.
             </p>
           </div>
 
