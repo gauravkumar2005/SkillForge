@@ -90,13 +90,25 @@ export default function AboutPage() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl text-black font-semibold mb-4">Innovation</h3>
-              <p className="text-gray-600">
-                We continuously improve our learning experience using modern
-                technologies and teaching methods.
-              </p>
-            </div>
+          <div
+    className="
+      bg-white p-8 rounded-2xl shadow-lg
+      border border-transparent
+      transition-all duration-300 ease-in-out
+      hover:-translate-y-1
+      hover:shadow-xl
+      hover:border-blue-200
+    "
+  >
+    <h3 className="text-2xl text-black font-semibold mb-4">
+      Innovation
+    </h3>
+
+    <p className="text-gray-600">
+      We continuously improve our learning experience using modern
+      technologies and teaching methods.
+    </p>
+  </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl text-black font-semibold mb-4">Accessibility</h3>
