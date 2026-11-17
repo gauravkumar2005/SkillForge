@@ -12,5 +12,6 @@ model User {
   name         String
   email        String   @unique
   passwordHash String
+  bio          String   @default("")
   createdAt    DateTime @default(now())
 }
